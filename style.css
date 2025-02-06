@@ -5,7 +5,7 @@
 
 body {
     background: url("img/bubbles.png");
-    background-size:auto;
+    background-size: 0.5%;
 }
 
 #page_container {
@@ -97,8 +97,17 @@ main {
     padding: 1% 1%;
 }
 
+#main_div h2, #main_div h3 {
+    text-transform: lowercase;
+}
+
 #about_content_1 {
-    list-style-type: square;
+    padding-top: 1rem;
+}
+
+#about_content_1 li {
+    padding-left: 1rem;
+    list-style-type: none;
 }
 
 footer {
@@ -117,7 +126,7 @@ footer {
     text-align: center;
     font-size: 100%;
 
-    position: sticky;
+    position:fixed;
     bottom: 0;
 }
 
