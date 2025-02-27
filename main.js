@@ -1,3 +1,3 @@
 setInterval(() => {
-    document.querySelector("#author").style.color = `rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})`
-}, 500)
+    document.querySelector(".author").style.color = `rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})`
+}, 1000)

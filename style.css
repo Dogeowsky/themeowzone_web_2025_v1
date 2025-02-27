@@ -146,6 +146,10 @@ footer {
     bottom: 0;
 }
 
+.author {
+    transition: color 2000ms ease;
+}
+
 @media screen and (max-width: 800px) {
     main {
         width: 100%;
