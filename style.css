@@ -147,7 +147,7 @@ footer {
 }
 
 .author {
-    transition: color 2000ms ease;
+    transition: color 2000ms;
 }
 
 @media screen and (max-width: 800px) {
