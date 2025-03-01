@@ -112,13 +112,17 @@ main {
 #main_div h2, #main_div h3 {
     text-transform: lowercase;
 }
-/* wip
-#index_content_1 {
 
-}
-*/
-#about_content_1 {
+.index_content {
     padding-top: 1rem;
+}
+
+.about_content {
+    padding-top: 1rem;
+}
+
+.about_content h3 {
+    padding-bottom: 0.5rem;
 }
 
 #about_content_1 li {
