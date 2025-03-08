@@ -8,4 +8,11 @@ document.querySelector(".author").addEventListener("click", () => {
     meow_audio.play()
 })
 
-document.querySelector("#my_button").textContent = `<a href="https://themeowzone.net/" target="_parent"><img src="https://themeowzone.net/files/button.png" alt="TheMeowZone" title="mewo >w<"></a>`
+const buttonSnippet = `<a href="https://themeowzone.net/" target="_parent"><img src="https://themeowzone.net/files/button.png" alt="TheMeowZone" title="mewo >w<"></a>`
+
+document.querySelector("#copy_button").addEventListener("click", () => {
+     navigator.clipboard.writeText(buttonSnippet)
+     alert("Copied the snippet!")
+})
+
+document.querySelector("#my_button").textContent = buttonSnippet

@@ -126,14 +126,34 @@ main {
 }
 
 .about_content code {
-    display: block;
     text-align: center;
+    font-size: 0.85rem;
     
     margin-top: 0.5rem;
     background: dimgray;
     border-radius: 0.1rem;
     padding: 0.25rem 0rem;
 }
+
+.about_content button {
+    background: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+    padding: 0.25rem;
+}
+
+.about_content button:hover {
+    background: white;
+    color: black;
+}
+
+.about_content button:active {
+    background: gray;
+    color: black;
+}
+
+
 
 #about_content_1 li {
     padding-left: 1rem;
@@ -191,6 +211,14 @@ footer {
     }
     #main_div {
         width: 98%;
+    }
+    .about_content div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about_content code {
+        display: block;
     }
     footer {
         position: static;
