@@ -7,7 +7,7 @@ document.querySelector(".author").addEventListener("click", () => {
     let random_meow = Math.floor(Math.random() * 3)
     let meow_audio = new Audio(meows[random_meow])
     
-    console.log(`Playing sound: ${meows[random_meow]}`)
+    //console.log(`Playing sound: ${meows[random_meow]}`)
     meow_audio.play()
 })
 
