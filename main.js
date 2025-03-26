@@ -22,4 +22,8 @@ if(document.URL == "https://themeowzone.net/about.html") {
    document.querySelector("#my_button").textContent = buttonSnippet
 }
 
+const legacy = document.createElement("p")
+legacy.setAttribute("class", "legacy")
+legacy.textContent = "legacy :3"
+document.querySelector("header").appendChild(legacy)
 
