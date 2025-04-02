@@ -33,8 +33,8 @@ header {
     text-align: center;
 
     position: absolute;
-    top: 3em;
-    left: 51%;
+    top: 10%;
+    left: 52%;
 
     animation: rotate 0.3s ease-in alternate infinite;
     }
@@ -234,6 +234,10 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+    .legacy {
+        top: 10%;
+        font-size: 1em;
+    }
     main {
         width: 100%;
         margin: 0;
@@ -257,6 +261,10 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
+    .legacy {
+        top: 5%;
+        font-size: 4vw;
+    }
     header {
         height: 5%;
     }
