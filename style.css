@@ -34,7 +34,7 @@ header {
 
     position: absolute;
     top: 3em;
-    left: 45em;
+    left: 51%;
 
     animation: rotate 0.3s ease-in alternate infinite;
     }
