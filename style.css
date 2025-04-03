@@ -215,7 +215,17 @@ footer {
 }
 
 .author {
-    transition: color 2000ms;
+    animation: rainbow 10s alternate linear infinite;
+}
+
+@keyframes rainbow {
+    0% { color: red; }
+    16.67% { color: orange; }
+    33.33% { color: yellow; }
+    50% { color: green; }
+    66.67% { color: blue; }
+    83.33% { color: indigo; }
+    100% { color: violet; }
 }
 
 .debian {
