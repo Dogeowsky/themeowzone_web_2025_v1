@@ -8,7 +8,7 @@ document.querySelector(".author").addEventListener("click", () => {
 })
 
 
-if(document.URL == "https://themeowzone.net/about.html") {
+if(document.URL == "https://legacy.themeowzone.net/about.html") {
     const buttonSnippet = `<a href="https://themeowzone.net/" target="_parent"><img src="https://themeowzone.net/files/button.png" alt="TheMeowZone" title="mewo >w<"></a>`
     
     document.querySelector("#copy_button").addEventListener("click", () => {
